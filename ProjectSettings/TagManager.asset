@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Logic
+  - Pipe
+  - Enemy
+  - Alien
+  - Wizard
+  - Knight
+  - Archer
+  - Werewolf
+  - Arrow
+  - Fireball
+  - UltFireball
+  - Boss
+  - EnergyBolt
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - Bullet
+  - Wraiths
+  - Shield
+  - Sword
+  - Middle
+  - Angels
+  - Ultimate
+  - Boss
+  - Door
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
