@@ -15,9 +15,8 @@ public class MiniTutorial : MonoBehaviour
     private void Start()
     {
         // Check if the tutorial has been completed
-        if (PlayerPrefs.GetInt("TutorialCompleted", 0) == 1)
+        if (PlayerPrefs.GetInt("MiniTutorial", 0) == 1)
         {
-            // If completed, skip the tutorial
             tutorialActive = false;
             enabled = false;
             return;
@@ -51,7 +50,7 @@ public class MiniTutorial : MonoBehaviour
         tutorialText.text = "";
 
         // Mark tutorial as completed in PlayerPrefs
-        PlayerPrefs.SetInt("TutorialCompleted", 1);
+        PlayerPrefs.SetInt("MiniTutorial", 1);
         PlayerPrefs.Save();
 
         tutorialActive = false;

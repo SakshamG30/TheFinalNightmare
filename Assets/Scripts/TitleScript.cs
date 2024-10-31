@@ -75,6 +75,7 @@ public class TitleScript : MonoBehaviour
     public void ResetTutorial()
     {
         PlayerPrefs.DeleteKey("TutorialComplete");
+        PlayerPrefs.DeleteKey("MiniTutorial");
         PlayerPrefs.SetFloat("TotalGameTime", 0);
         PlayerPrefs.Save();
     }
